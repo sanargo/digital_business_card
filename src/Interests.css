@@ -1,0 +1,14 @@
+.interests-container {
+  margin-bottom: 30px;
+}
+
+.interests-container > h2 {
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: whitesmoke;
+}
+
+.interests-container > p {
+  color: #dcdcdc;
+  font-size: 10px;
+}

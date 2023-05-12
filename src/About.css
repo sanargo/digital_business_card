@@ -1,0 +1,14 @@
+.about-container {
+  margin-bottom: 13px;
+}
+
+.about-container > h2 {
+  margin-bottom: 5px;
+  font-size: 1em;
+  color: whitesmoke;
+}
+
+.about-container > p {
+  color: #dcdcdc;
+  font-size: 10px;
+}

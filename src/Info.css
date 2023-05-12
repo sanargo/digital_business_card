@@ -1,0 +1,84 @@
+.profile-photo {
+  height: 317px;
+  margin-bottom: 15px;
+  object-fit: contain;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container > h1,
+.info-container > h6,
+.info-container > a {
+  margin: 0;
+}
+
+.info-container > h1,
+.info-container > a {
+  color: whitesmoke;
+}
+
+.info-container > h1 {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.info-container > h6 {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #f3bf99;
+}
+
+.info-container > a {
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+
+.info-btns,
+.info-btns > button {
+  display: flex;
+  justify-content: center;
+}
+
+.info-btns {
+  width: 100%;
+  padding: 0 35px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.info-btns > button {
+  width: 115px;
+  height: 34px;
+  padding: 0;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.email-btn {
+  color: #374151;
+  background-color: whitesmoke;
+}
+
+.email-btn > img,
+.linkedin-btn > img {
+  width: 16px;
+  object-fit: contain;
+}
+
+.linkedin-btn {
+  color: whitesmoke;
+  background-color: #5093e2;
+}

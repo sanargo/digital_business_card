@@ -1,0 +1,23 @@
+footer,
+footer > div {
+  display: flex;
+}
+
+footer {
+  height: 64px;
+  padding: 0 au;
+  justify-content: center;
+  align-items: center;
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+footer > div {
+  width: 172px;
+  justify-content: space-between;
+}
+
+footer > div > img {
+  cursor: pointer;
+}
